@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img {
+  width: 300px;
+}
+
+.description {
+  font-size: 20px;
+  text-align: justify;
+  max-width: 50rem;
+}
