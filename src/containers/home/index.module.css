@@ -1,7 +1,9 @@
 .grid_container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fit, 270px);
   gap: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .title__container {
