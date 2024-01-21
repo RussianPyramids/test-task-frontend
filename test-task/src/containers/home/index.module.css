@@ -1,0 +1,25 @@
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.title__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.show__filtered_button {
+  border: 1px solid grey;
+  border-radius: 3px;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.show__filtered_button__active {
+  color: red;
+}

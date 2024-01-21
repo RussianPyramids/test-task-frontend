@@ -1,0 +1,79 @@
+.card_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 4px;
+  padding-right: 10px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  color: black;
+  max-width: 270px;
+  position: relative;
+}
+.card_container:hover {
+  transform: scale(1.02);
+  box-shadow: rgba(31, 26, 26, 0.2) 0px 0px 1rem;
+  cursor: pointer;
+}
+
+.delete__button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.delete__button:hover {
+  color: red;
+}
+
+.img {
+  width: 8rem;
+  height: 8rem;
+  align-self: center;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+.title,
+.description {
+  width: 200px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 5px;
+}
+.title {
+  font-weight: bold;
+}
+.description {
+  width: 250px;
+}
+
+.price_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.price {
+  font-weight: bold;
+  margin: 5px;
+  font-size: 18px;
+}
+.like__button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.liked__button svg {
+  fill: red;
+  stroke: red;
+}
